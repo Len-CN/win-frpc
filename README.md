@@ -1,6 +1,3 @@
-***
-
-```markdown
 # Win-FRPC
 
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue)
@@ -40,7 +37,6 @@
 └── 📂 bin/
     └── ⚙️ frpc.exe  (官方核心程序，必须叫这个名字)
 ```
-
 ---
 
 ## ✨ 功能特性
