@@ -1,28 +1,37 @@
+# OS
 .DS_Store
 Thumbs.db
 
+# Node
 node_modules/
 npm-debug.log
 yarn-error.log
 pnpm-debug.log
 
+# Build output
 dist/
 dist-ssr/
 coverage/
 
-
+# Rust / Tauri
 src-tauri/target/
-src-tauri/gen/schemas/
+src-tauri/gen/
 
+# frpc binary (users must download separately)
+src-tauri/bin/
+
+# IDE
 .idea/
 .vscode/
 *.swp
 *.swo
 
+# Environment
 .env
 .env.local
 .env.*.local
 
+# Runtime config / temp
 config.json
 frpc.ini
 frpc_temp.ini

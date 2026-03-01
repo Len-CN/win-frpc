@@ -29,7 +29,10 @@ const resources = {
       no_tunnels: "No tunnels configured", // <--- 新增
       language: "Language",
       save: "Save Configuration",
-      remote_addr: "Remote Address" // <--- 顺便把这个也加上
+      remote_addr: "Remote Address", // <--- 顺便把这个也加上
+      err_required: "Required",
+      err_invalid_port: "Invalid port (1-65535)",
+      err_domain_required: "Domain is required for HTTP/HTTPS"
     }
   },
   zh: {
@@ -59,7 +62,10 @@ const resources = {
       logs: "系统日志",
       language: "界面语言",
       save: "保存配置",
-      remote_addr: "远程访问地址" // <--- 顺便把这个也加上
+      remote_addr: "远程访问地址", // <--- 顺便把这个也加上
+      err_required: "必填项",
+      err_invalid_port: "端口无效 (1-65535)",
+      err_domain_required: "HTTP/HTTPS 需要填写域名"
     }
   }
 };
